@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: hsl(218deg, 23%, 16%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  background-color: hsl(217deg, 19%, 24%);
+  font-size: 28px;
+  color: hsl(193deg, 38%, 86%);
+  border-radius: 10px;
+  font-family: "Manrope", sans-serif;
+  font-weight: 800;
+  margin-top: 200px;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.main__numAdvice {
+  font-size: 12px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: hsl(150deg, 100%, 66%);
+  letter-spacing: 5px;
+}
+.main__advice--textAdvice {
+  text-align: center;
+  padding: 0 10px;
+}
+.main__diceContentor {
+  margin: auto;
+  height: 40px;
+  width: 60px;
+  background-color: hsl(150deg, 100%, 66%);
+  border-radius: 50%;
+  padding: 10px 0px;
+  cursor: pointer;
+  position: absolute;
+  margin-top: 330px;
+  margin-left: 160px;
+}
+.main__diceContentor:hover {
+  box-shadow: 0 0 25px, 0 0 5px hsl(150deg, 100%, 66%);
+}
+.main__divider {
+  padding-bottom: 50px;
+}
+
+.imgDivider {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 20px 20px;
+}/*# sourceMappingURL=main.css.map */
