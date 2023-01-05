@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -10,53 +11,54 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  min-height: 100vh;
 }
 
 .main {
+  margin: 0 1.7rem;
   background-color: hsl(217deg, 19%, 24%);
-  font-size: 28px;
+  font-size: 1.75rem;
   color: hsl(193deg, 38%, 86%);
-  border-radius: 10px;
+  border-radius: 0.66rem;
   font-family: "Manrope", sans-serif;
   font-weight: 800;
-  margin-top: 200px;
-  padding: 10px;
+  padding: 0.66rem;
   text-align: center;
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 .main__numAdvice {
-  font-size: 12px;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  font-size: 0.75rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   color: hsl(150deg, 100%, 66%);
-  letter-spacing: 5px;
+  letter-spacing: 0.33rem;
 }
 .main__advice--textAdvice {
   text-align: center;
-  padding: 0 10px;
+  padding: 0 1.6rem;
 }
 .main__diceContentor {
-  margin: auto;
-  height: 40px;
-  width: 60px;
+  height: 3.75rem;
+  width: 3.75rem;
   background-color: hsl(150deg, 100%, 66%);
   border-radius: 50%;
-  padding: 10px 0px;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
-  margin-top: 330px;
-  margin-left: 160px;
+  bottom: -1.875rem;
+  left: calc(50% - 1.875rem);
 }
 .main__diceContentor:hover {
   box-shadow: 0 0 25px, 0 0 5px hsl(150deg, 100%, 66%);
 }
 .main__divider {
-  padding-bottom: 50px;
+  padding-bottom: 1.56rem;
 }
 
 .imgDivider {
-  box-sizing: border-box;
-  width: 100%;
-  padding: 20px 20px;
+  padding: 1.5rem 1.5rem;
 }/*# sourceMappingURL=main.css.map */
